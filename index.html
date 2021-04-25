@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico?">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Time Seris workshop, co-located with ICML 2019, Long Beach, USA">
+
+
+    <title> Adversarial Machine Learning Workshop </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- </div>
+            <a class=" nav navbar-nav navbar-middle " href="#" style='padding-left: 0px; '>AdvML @ ICML 2021
+            </a> -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-middle">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#" style='padding-left: 0px;'>AdvML @ ICML 2021 </a>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-middle">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+
+                        <!-- <li>
+                            <a class="page-scroll" href="#" style='padding-left: 0px;'>AdvML @ ICML 2021 </a>
+                        </li> -->
+                        <li>
+                            <a style='padding-left: 163px;'></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#introduction">Overview</a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#call">Call for Papers</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#dates">Important Dates</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#program">Schedule</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#speaker">Invited Speakers</a>
+                        </li>
+                        <!-- <li>
+                        <a class="page-scroll" href="#papers">Accepted Papers</a>
+                    </li> -->
+
+
+
+                        <li>
+                            <a class="page-scroll" href="#organization">Organizers</a>
+                        </li>
+                        <li>
+                        <li>
+                            <a class="page-scroll" href="#contactt">Contact</a>
+                        </li>
+                        <li>
+
+                            <!-- <li>
+                        <a class="buttom" href="index_2020.html">TSW 2020</a>
+                    </li> -->
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <style>
+            header {
+                background-image: url(img/bjj.png);
+                color: #fff
+            }
+        </style>
+        <div class="container">
+            </br>
+            
+           
+            <div class="intro-text">
+                <div class="intro-heading"> A Blessing in Disguise: The Prospects and Perils of Adversarial Machine
+                    Learning</div>
+                </br>
+            </br>
+
+                <div class="intro-lead-in"> Workshop at ICML 2021 </div>
+                <!-- <div class="intro-lead-in"> Time Series Workshop @ <a href="https://icml.cc/Conferences/2019"
+                        target=_blank>ICML 2019</a></br>June 14, 2019. Long Beach, USA</div> -->
+                <!--a href="#call" target=_blank class="page-scroll btn btn-xl">Submit a Paper</a-->
+            </div>
+        </div>
+    </header>
+    </br></br></br></br>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Overview</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Adversarial machine learning is a new gamut of technologies that aim to study vulnerabilities of
+                        ML approaches and detect the malicious behaviors in adversarial settings. The adversarial agents
+                        can deceive an ML classifier by significantly altering its response with imperceptible
+                        perturbations to the inputs. Although it is not to be alarmist, researchers in machine learning
+                        have a responsibility to preempt attacks and build safeguards especially when the task is
+                        critical for information security, and human lives. We need to deepen our understanding of
+                        machine learning in adversarial environments.
+                    </p></br>
+
+                    <p class="large text-muted"> While the negative implications of this nascent technology have been
+                        widely discussed, researchers in machine learning are yet to explore their positive
+                        opportunities in numerous aspects. The positive impacts of adversarial machine learning are not
+                        limited to boost the robustness of ML models, but cut across several other domains including
+                        privacy protection, reliability and safety test, model understanding, improving generalization
+                        performance on different tasks, etc.
+
+                    </p></br>
+
+                    <!-- <p class="large text-muted">(1) Privacy Protection: Privacy concerns in social media have recently
+                        been under the spotlight, due to a few incidents on user data leakage on social networking
+                        platforms. Classical obfuscation techniques such as face blurring may not be effective against
+                        the CNN-based recognizers, while adversarial examples provide a promising way to protect their
+                        content from unwanted inferences.
+                    </p> </br>
+                    <p class="large text-muted">(2) Reliability and Safety Test: Reliability tests are critical to the
+                        development and deployment for numerous smart devices. The prevailing approaches may be
+                        intolerable inefficiency due to the high dimensionality of the environment and the rareness of
+                        safety-critical events. Recent research demonstrates that it is possible to accelerate the
+                        evaluation process by multiple orders of magnitude with the aid of the sparse but adversarial
+                        adjustments to the naturalistic environments.
+                    </p></br>
+                    <p class="large text-muted">(3) Model Understanding: Understanding what an ML model learns is
+                        important for users to clearly understand, appropriately trust, and effectively interact with
+                        the model. Adversarial ML provides a new perspective to help us understand a model theoretically
+                        and empirically. Recent researches reveal a close connection between adversarial vulnerability
+                        and model interpretability. Adversarially robust models can also lead to more reasonable
+                        interpretability for middle layers, attention operations, etc.
+                    </p></br>
+                    <p class="large text-muted">(4) Generalization: Except for promoting model robustness, adversarial
+                        training methods can also improve the generalization performance for traditional tasks in
+                        computer vision (e.g., image classification) and natural language processing (e.g., language
+                        understanding). These methods are also effective under various learning scenarios, including
+                        semi-supervised learning, transfer learning, etc. It may also be promising for generative
+                        modeling or reinforcement learning if investigated deeply in the future.
+                    </p></br> -->
+                    <p class="large text-muted">Since there are both positive and negative applications of adversarial
+                        machine learning, tackling adversarial learning to their use in the right direction requires a
+                        framework to embrace the positives. This workshop aims to bring together researchers and
+                        practitioners from a variety of communities (e.g., machine learning, computer security, data
+                        privacy and ethics) in an effort to synthesize promising ideas and research directions, as well
+                        as foster and strengthen cross-community collaborations on both theoretical studies and
+                        practical applications. Different from the previous workshops on adversarial machine learning,
+                        our proposed workshop seeks to explore the prospects besides reducing the unintended risks for
+                        sophisticated ML models.
+                    </p></br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- call for papers -->
+    <!-- <section id="call" class="bg-mid-gray"> -->
+    <section id="call">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Call for Papers</h2>
+
+                    <div class="row text-justify">
+                        <div class="col-md-12">
+
+
+                            <p class="large text-muted">
+                                We welcome submission from different aspects of adversarial ML, including but not
+                                limited to
+                            </p>
+
+                            <ul class="large text-muted" style="float:left; width: 100%">
+                                <li> Adversarial / Poisoned attacks against ML models</li>
+                                <li> Adversarial defenses to improve decision robustness</li>
+                                <li> Methods of detecting / rejecting adversarial examples</li>
+                                <li> Model verification and certified training / inference</li>
+                                <li> Benchmarks to reliably evaluate previous defenses</li>
+                                <li> Theoretical understanding of adversarial ML</li>
+                                <li> Empirical studies that help to construct practically robust systems</li>
+                                <li> Adversarial ML in the real world</li>
+                                <li> Robust model architectures, data augmentations, and dataset biases </li>
+                                <li> Positive applications of the technicals in adversarial ML</li>
+                                <li style='list-style: none'>(e.g., privacy protection, generalization improvement,
+                                    interpretable ML, transfer learning, reinforcement learning, traditional CV and
+                                    NLP
+                                    tasks)</li>
+                            </ul>
+                            <p class="large text-muted">
+                                We only consider submissions that haven’t been published in any peer-reviewed venue,
+                                including ICML 2021 conference. The workshop is non-archival and will not have any
+                                official proceedings. Based on the PC’s recommendation, the accepted papers will be
+                                allocated either a contributed talk or a poster presentation.
+                            </p>
+                            </br>
+                            </br>
+                            <p class="large text-muted"><b>Submission format:</b> &nbsp;&nbsp;Submissions should be
+                                anonymized
+                                and
+                                follow the ICML 2021 template here. Submissions should
+                                be up to 4 pages, plus unlimited space for references and appendices.</p>
+
+                            <p class="large text-muted"><b>Submission server:
+                                    <a
+                                        href="https://openreview.net/group?id=ICML.cc/2021/Workshop/AML">https://openreview.net/group?id=ICML.cc/2021/Workshop/AML</a>
+                                </b> &nbsp;&nbsp;
+                            <p><b>We will offer 1~2 Best Paper Awards (total $3,000 prize) and 1~2 Adversarial for Good
+                                    Award (total $3,000 prize).</b></p>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+    <!-- Dates Section -->
+    <section id="dates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Important Dates</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 text-left">
+                    &nbsp;
+                </div>
+                <div class="row text-justify ">
+                    <div class="col-md-8">
+                        <ul style="float:left; width: 100%">
+                            <p class="large text-muted">
+                                <b>Submission Deadline:</b> June 5th, 2021
+                            </p>
+                            <p class="large text-muted">
+                                <b>Notification to authors:</b> June 20th, 2021
+                            </p>
+                            <p class="large text-muted">
+                                <b>Video recordings of contributed talks deadline:</b> June 27th, 2021
+                            </p>
+                            <p class="large text-muted">
+                                <b>Camera-ready deadline:</b> July 1th, 2021
+                            </p>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Program Section -->
+    <section id="program">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Schedule</h2>
+                    <!-- <h3 class="section-subheading text-muted">
+                        Long Beach Convention Center, Long Beach <br>
+                        8:45 am - 6:05 pm <br>
+                        June 14, 2019<br>
+                    </h3> -->
+                </div>
+            </div>
+
+            <div id="schedule">
+                <div class="container w">
+                    <h3>Morning Session</h3> <br>
+                    <div class="row centered">
+                        <table class="table table-striped" border="2" cellpadding="2" cellspacing="2">
+                            <tbody>
+                                <tr>
+                                    <td>8:45 - 9:00 </td>
+                                    <td>Opening Remarks </td>
+
+                                </tr>
+                                <tr>
+                                    <td>9:00 - 9:30 </td>
+                                    <td>Invited Talk #1</td>
+
+                                </tr>
+                                <tr>
+                                    <td>9:30 - 10:00 </td>
+                                    <td> Invited Talk #2</td>
+
+                                </tr>
+                                <tr>
+                                    <td>10:10 - 10:40 </td>
+                                    <td>Invited Talk #3 </td>
+
+                                </tr>
+                                <tr>
+                                    <td>10:40 - 11:10</td>
+                                    <td> Invited Talk #4</td>
+
+                                </tr>
+                                <tr>
+                                    <td>11:10 - 11:20 </td>
+                                    <td>Contributed Talk #2</td>
+
+                                </tr>
+                                <tr>
+                                    <td>11:20 - 12:00 </td>
+                                    <td>Panel Discussion #1</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>12:00-13:00 </td>
+                                    <td>Poster Session#1</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <h3>Afternoon Session</h3> <br>
+                    <div class="row centered">
+                        <table class="table table-striped" border="2" cellpadding="2" cellspacing="2">
+                            <tbody>
+                                <tr>
+                                    <td>13:00 - 13:30</td>
+                                    <td>Invited Talk #5</td>
+                                    <!-- <td>  </td> -->
+                                </tr>
+                                <tr>
+                                    <td>13:30 - 14:00</td>
+                                    <td>Invited Talk #6 </td>
+                                    <!-- <td>  </td> -->
+                                </tr>
+                                <tr>
+                                    <td>14:30 - 14:40</td>
+                                    <td>Contributed Talk #3</td>
+                                    <!-- <td>  </td> -->
+                                </tr>
+                                <tr>
+                                    <td>14:40 - 15:10</td>
+                                    <td>Invited Talk #8 </td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>15:10 - 15:40 </td>
+                                    <td>Invited Talk #9 </td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>15:40 - 16:10 </td>
+                                    <td>Invited Talk #10</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>16:10 - 16:20 </td>
+                                    <td>Contributed Talk #4</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>16:20 - 17:00 </td>
+                                    <td>Panel Discussion #2</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>17:00 - 18:00 </td>
+                                    <td>Panel Discussion #2</td>
+                                    <!-- <td> </td> -->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-1 text-left">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Speaker Section -->
+
+<!-- *Aleksander Mądry (MIT, https://people.csail.mit.edu/madry/) 
+*Liwei Wang (Peking University, http://www.liweiwang-pku.com)
+*Sven Gowal (DeepMind, https://scholar.google.com/citations?user=7wclGnQAAAAJ&hl=en)
+*Jan Hendrik Metzen (Bosch Center for Artificial Intelligence, https://scholar.google.de/citations?user=w047VfEAAAAJ&hl=en)
+*Nicholas Carlini (Google, https://nicholas.carlini.com) 
+*Will Xiao (Harvard Medical School, https://livingstone.hms.harvard.edu/people/will-xiao)
+*Kamalika Chauduri (UCSD, http://cseweb.ucsd.edu/~kamalika/) -->
+
+    <section id="speaker">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Invited Speakers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+
+            <div class="row row-centered ">
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/speakers/Aleksander_Madry.png" height="150" width="150" class="img-responsive img-circle">
+                        <a href="https://people.csail.mit.edu/madry/">
+                            <h4> Aleksander Mądry</h4>
+                        </a>
+                        <p class="text-muted">MIT</p>
+                    </div>
+                </div>
+
+                <div class="row row-centered ">
+                    <div class="col-sm-2">
+                        <div class="team-member">
+                            <img src="img/speakers/Liwei Wang.png" height="150" width="150" class="img-responsive img-circle">
+                            <a href="http://www.liweiwang-pku.com">
+                                <h4> Liwei Wang</h4>
+                            </a>
+                            <p class="text-muted">Peking University</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-centered ">
+                        <div class="col-sm-2">
+                            <div class="team-member">
+                                <img src="img/speakers/Sven Gowal.jpg" height="150" width="150" class="img-responsive img-circle">
+                                <a href="https://scholar.google.com/citations?user=7wclGnQAAAAJ&hl=en">
+                                    <h4> Sven Gowal</h4>
+                                </a>
+                                <p class="text-muted">DeepMind</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-centered ">
+                            <div class="col-sm-2">
+                                <div class="team-member">
+                                    <img src="img/speakers/Jan Hendrik Metzen.png" height="150" width="150"
+                                        class="img-responsive img-circle">
+                                    <a href="https://scholar.google.de/citations?user=w047VfEAAAAJ&hl=en">
+                                        <h4> Jan Hendrik Metzen</h4>
+                                    </a>
+                                    <p class="text-muted">Bosch Center for Artificial Intelligence</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row row-centered ">
+                                <div class="col-sm-2">
+                                    <div class="team-member">
+                                        <img src="img/speakers/nicholas Carlini.jpg" height="150" width="150"
+                                            class="img-responsive img-circle">
+                                        <a href="https://nicholas.carlini.com">
+                                            <h4> Nicholas Carlini</h4>
+                                        </a>
+                                        <p class="text-muted">Google</p>
+                                    </div>
+                                </div>
+
+                                <div class="row row-centered ">
+                                    <div class="col-sm-2">
+                                        <div class="team-member">
+                                            <img src="img/speakers/Will Xiao.png" height="150" width="150"
+                                                class="img-responsive img-circle">
+                                            <a href="https://livingstone.hms.harvard.edu/people/will-xiao">
+                                                <h4> Will Xiao</h4>
+                                            </a>
+                                            <p class="text-muted">Harvard Medical School</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="container">
+                                <!-- <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2 class="section-heading">Workshop Organizers</h2>
+                                    </div>
+                                </div> -->
+                                <br />
+                                <br />
+                              
+                                                    <div class="row row-centered ">
+                                                        <div class="col-sm-2">
+                                                            <div class="team-member">
+                                                                <img src="img/speakers/Kamalika Chaudhuri.jpg" height="150"
+                                                                    width="150" class="img-responsive img-circle">
+                                                                <a href=" http://cseweb.ucsd.edu/~kamalika/">
+                                                                    <h4> Kamalika Chauduri</h4>
+                                                                </a>
+                                                                <p class="text-muted">UCSD</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+    </section>
+
+
+<!-- 
+    Hang Su (Tsinghua University, https://www.suhangss.me/)
+    Yinpeng Dong (Tsinghua University, http://ml.cs.tsinghua.edu.cn/~yinpeng/)
+    Tianyu Pang (Tsinghua University, http://ml.cs.tsinghua.edu.cn/~tianyu/)
+    Eric Wong (MIT, https://riceric22.github.io)
+    Zico Kolter (CMU, https://zicokolter.com)
+    Bo Li (UIUC, https://aisecure.github.io/)
+    Shuo Feng (University of Michigan, https://www.fshuo.tech)
+    Henry Liu (University of Michigan, https://cee.engin.umich.edu/people/henry-liu/)
+    Dan Hendrycks (UC Berkeley, http://danhendrycks.com/)
+    Francesco Croce (University of Tuebingen,
+    uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/maschinelles-lernen/team/francesco-croce-msc/)
+    Leslie Rice (CMU, https://leslierice1.github.io)
+    Tian Tian (RealAI, http://ml.cs.tsinghua.edu.cn/~tian/)) -->
+
+    <section id="organization">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Workshop Organizers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="row row-centered ">
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/organizers/hangsu.jpeg" height="150" width="150"
+                            class="img-responsive img-circle">
+                        <a href="https://www.suhangss.me/">
+                            <h4> Hang Su</h4>
+                        </a>
+                        <p class="text-muted">Tsinghua University</p>
+                    </div>
+                </div>
+
+                <div class="row row-centered ">
+                    <div class="col-sm-2">
+                        <div class="team-member">
+                            <img src="img/organizers/yinpeng.jpeg" height="150" width="150"
+                                class="img-responsive img-circle">
+                            <a href=" http://ml.cs.tsinghua.edu.cn/~yinpeng/">
+                                <h4> Yinpeng Dong</h4>
+                            </a>
+                            <p class="text-muted">Tsinghua University</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-centered ">
+                        <div class="col-sm-2">
+                            <div class="team-member">
+                                <img src="img/organizers/Tianyu Pang.jpeg" height="150" width="150"
+                                    class="img-responsive img-circle">
+                                <a href="http://ml.cs.tsinghua.edu.cn/~tianyu/">
+                                    <h4> Tianyu Pang</h4>
+                                </a>
+                                <p class="text-muted">Tsinghua University</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row row-centered ">
+                            <div class="col-sm-2">
+                                <div class="team-member">
+                                    <img src="img/organizers/Eric Wong.png" height="150" width="150"
+                                        class="img-responsive img-circle">
+                                    <a href="https://riceric22.github.io">
+                                        <h4> Eric Wong</h4>
+                                    </a>
+                                    <p class="text-muted">MIT</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row row-centered ">
+                                <div class="col-sm-2">
+                                    <div class="team-member">
+                                        <img src="img/organizers/zicokolter.jpg" height="150" width="150"
+                                            class="img-responsive img-circle">
+                                        <a href="https://zicokolter.com">
+                                            <h4>Zico Kolter</h4>
+                                        </a>
+                                        <p class="text-muted">CMU</p>
+                                    </div>
+                                </div>
+                                <div class="row row-centered ">
+                                    <div class="col-sm-2">
+                                        <div class="team-member">
+                                            <img src="img/organizers/bo_li.jpg" height="150" width="150"
+                                                class="img-responsive img-circle">
+                                            <a href="https://aisecure.github.io/">
+                                                <h4> Bo Li</h4>
+                                            </a>
+                                            <p class="text-muted">UIUC</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <!-- <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2 class="section-heading">Workshop Organizers</h2>
+                                    </div>
+                                </div> -->
+                                <br />
+                                <br />
+                                <br />
+
+
+                                <div class="row row-centered ">
+                                    <div class="col-sm-2">
+                                        <div class="team-member">
+                                            <img src="img/organizers/Shuo Feng.jpg" height="150" width="150"
+                                                class="img-responsive img-circle">
+                                            <a href="https://www.fshuo.tech">
+                                                <h4> Shuo Feng</h4>
+                                            </a>
+                                            <p class="text-muted">University of Michigan</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row row-centered ">
+                                        <div class="col-sm-2">
+                                            <div class="team-member">
+                                                <img src="img/organizers/Henry Liu.png" height="150" width="150"
+                                                    class="img-responsive img-circle">
+                                                <a href="https://cee.engin.umich.edu/people/henry-liu/">
+                                                    <h4> Henry Liu</h4>
+                                                </a>
+                                                <p class="text-muted">University of Michigan</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row row-centered ">
+                                            <div class="col-sm-2">
+                                                <div class="team-member">
+                                                    <img src="img/organizers/Dan Hendrycks.png" height="150" width="150"
+                                                        class="img-responsive img-circle">
+                                                    <a href="http://danhendrycks.com/">
+                                                        <h4> Dan Hendrycks</h4>
+                                                    </a>
+                                                    <p class="text-muted">UC Berkeley</p>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="row row-centered ">
+                                                <div class="col-sm-2">
+                                                    <div class="team-member">
+                                                        <img src="img/organizers/Francesco Croce.jpg" height="150"
+                                                            width="150" class="img-responsive img-circle">
+                                                        <a
+                                                            href="uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/maschinelles-lernen/team/francesco-croce-msc/">
+                                                            <h4> Francesco Croce</h4>
+                                                        </a>
+                                                        <p class="text-muted">University of Tuebingen</p>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="row row-centered ">
+                                                    <div class="col-sm-2">
+                                                        <div class="team-member">
+                                                            <img src="img/organizers/Leslie Rice.jpg" height="150"
+                                                                width="150" class="img-responsive img-circle">
+                                                            <a href="https://leslierice1.github.io">
+                                                                <h4> Leslie Rice</h4>
+                                                            </a>
+                                                            <p class="text-muted">CMU</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row row-centered ">
+                                                        <div class="col-sm-2">
+                                                            <div class="team-member">
+                                                                <img src="img/organizers/tian.jpeg" height="150"
+                                                                    width="150" class="img-responsive img-circle">
+                                                                <a href=" http://ml.cs.tsinghua.edu.cn/~tian/">
+                                                                    <h4> Tian Tian</h4>
+                                                                </a>
+                                                                <p class="text-muted">RealAI</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    </section>
+
+
+    <!-- <section id="call">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Call for Papers</h2>
+
+                    <div class="row text-justify">
+                        <div class="col-md-12">
+
+
+                            <p class="large text-muted">
+                                We welcome submission from different aspects of adversarial ML, including but not
+                                limited to
+                            </p>
+                        </section> -->
+
+
+    <section id="contactt">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h2 class="section-heading">Contact</h2>
+                                            <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                                            <p class="large text-muted">
+
+                                                Please contact <a
+                                                    href='mailto:suhangss@mail.tsinghua.edu.cn'>HangSu</a>,
+                                                <a href="mailto:dyp17@mails.tsinghua.edu.cn">Yinpeng Dong</a>
+                                                , <a href="mailto:pty17@mails.tsinghua.edu.cn">Tianyu Pang</a>&nbsp;if
+                                                you have any
+                                                questions.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+    </section>
+
+
+
+
+
+
+    <section id="contact">
+        <br class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Sponsored by</h3>
+            </div>
+        </div>
+        <div class="center">
+            <center>
+                <img src="img/logo.png" class="center" alt="" height="120">
+            </center>
+        </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
